@@ -1,4 +1,7 @@
 package org.example.factorial;
+/**
+ * Факториал
+ */
 
 public class Factorial {
     public static void main(String[] args) {
