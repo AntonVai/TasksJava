@@ -1,4 +1,4 @@
-package org.example.lesson01;
+package org.example.factorial;
 
 public class Factorial {
     public static void main(String[] args) {
