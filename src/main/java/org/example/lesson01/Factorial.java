@@ -3,6 +3,7 @@ package org.example.lesson01;
 public class Factorial {
     public static void main(String[] args) {
         System.out.println(getFactorial(5));
+        System.out.println(getFactorialWithRecursion(5));
     }
 
     public static int getFactorial(int value) {
@@ -11,5 +12,13 @@ public class Factorial {
             result = result * i;
         }
         return result;
+    }
+
+    public static int getFactorialWithRecursion(int value) {
+        if (value <= 1) {
+            return value;
+        } else {
+            return value * getFactorial(value - 1);
+        }
     }
 }
